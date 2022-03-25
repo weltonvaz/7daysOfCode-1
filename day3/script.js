@@ -17,13 +17,14 @@ function comecar(){
     }
     if(r3 == 'f'){
       alert(`Muito bem, então você deseja seguir a carreira de ${r1} , aprendendo ${r2} e se desenvolver para se tornar Full-Stack`) 
-     var tecno = []
-  var r4=prompt('Se existe mais alguma tecnologia que você gostaria de se especializar ou de conhecer,digite ?')
+     
+    }
+    var tecno = []
+    var r4=prompt('Se existe mais alguma tecnologia que você gostaria de se especializar ou de conhecer,digite ou Cancelar para finalizar')
       while (r4 != null){
              tecno.push(r4)
         alert(`Muito bem, ${r4} também é muito interessante!`)
-        r4=prompt('Se existe mais alguma tecnologia que você gostaria de se especializar ou de conhecer,digite ou Cancelar para finalizar ?')
+        r4=prompt('Se existe mais alguma tecnologia que você gostaria de se especializar ou de conhecer,digite ou Cancelar para finalizar')
              }
       alert(`Muito bem, então você deseja seguir a carreira de ${r1} , aprendendo ${r2} e se desenvolver para se tornar Full-Stack e ainda deseja aprender mais sobre ${tecno}. Obrigado pelas respostas!`) 
-    }
   }
