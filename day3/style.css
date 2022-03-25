@@ -1,0 +1,19 @@
+body{
+    font-family: 'Prompt', sans-serif;
+    height: 500px;
+    background-color: rgb(15, 14, 14);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:white;
+    }
+    
+    .container{
+        font-size: 18pt;
+        text-align:center;
+        width: 400px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .resultado{
+        font-size: 18pt;
+    }
