@@ -13,7 +13,7 @@ function comecar(){
     var r3 = prompt('Continuar se especializando na area escolhida "c" ou se desenvolver para se tornar Full-Stack "f"?' )
     r3 = r3.toLowerCase()
     if(r3 == 'c'){
-      prompt(`Então você deseja seguir a carreira de ${r1} , aprendendo ${r2} e continuar se especializando na area escolhida`)  
+      alert(`Muito bem, então você deseja seguir a carreira de ${r1} , aprendendo ${r2} e continuar se especializando na area escolhida`)  
     }
     if(r3 == 'f'){
       alert(`Muito bem, então você deseja seguir a carreira de ${r1} , aprendendo ${r2} e se desenvolver para se tornar Full-Stack`) 
