@@ -1,0 +1,59 @@
+
+body{
+  background-image: url('https://content.paodeacucar.com/wp-content/uploads/2019/06/8-dicas-%C3%BAteis-2.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align: center;
+  
+}
+
+
+p{
+  font-size: 12pt;
+  color: black;
+}
+
+h2{
+  color: black;
+  background-color: white;
+}
+
+.mae{
+  position: absolute;
+  display:flex;
+  justify-items: space-beetwen;
+  //margin:0 auto;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.caixa1{
+  width: 400px;
+  height: 100px;
+  background-color: rgba(250, 235, 169, 0.8);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding :20px;
+  margin-right:10px;
+  font-size:8pt;
+  
+}
+
+.caixa2{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('https://thumbs.dreamstime.com/b/grocery-list-18477314.jpg');
+  background-size: cover;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  //padding :20px;
+  padding-top :60px;
+  padding-left: 10px;
+  padding-right: 50px;
+  font-size:8pt;
+}
