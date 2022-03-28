@@ -19,14 +19,12 @@ h2{
 }
 
 .mae{
-  position: absolute;
+
   display:flex;
+  flex-wrap: wrap;
   justify-items: space-beetwen;
-  //margin:0 auto;
+  margin:0 auto;
   padding: 10px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
 
 .caixa1{
@@ -36,7 +34,8 @@ h2{
   border-radius: 20px;
   margin-top: 20px;
   padding :20px;
-  margin-right:10px;
+  margin-right:auto;
+  margin-left:auto;
   font-size:8pt;
   
 }
@@ -51,6 +50,8 @@ h2{
   background-color: white;
   border-radius: 20px;
   margin-top: 20px;
+  margin-right:auto;
+  margin-left:auto;
   //padding :20px;
   padding-top :60px;
   padding-left: 10px;
