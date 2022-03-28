@@ -46,9 +46,9 @@ if (categoria.value == 'Doces'){
   }
 
 function mostrarLista(){
-  resFrutas.innerHTML = '<h1>Frutas</h1>'
-  resLat.innerHTML = '<h1>Laticínios</h1>'  
-  resCong.innerHTML = '<h1>Congelados</h1>'  
+  resFrutas.innerHTML = '<h1>Frutas   </h1>'
+  resLat.innerHTML = '<h1>Laticínios   </h1>'  
+  resCong.innerHTML = '<h1>Congelados   </h1>'  
   resDoces.innerHTML = '<h1>Doces</h1>'  
   for (let index in frutas) {
     resFrutas.innerHTML += `<p>- ${frutas[index]}</p>`
