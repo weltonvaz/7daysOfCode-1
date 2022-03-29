@@ -6,6 +6,7 @@ body{
   min-height: 200px;
   margin: 5px;
   color: rgb(15, 163, 35);
+  min-width: 477px;
 }
 
 header{
