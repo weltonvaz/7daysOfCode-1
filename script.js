@@ -81,18 +81,19 @@ function calcular(){
     }else{
         resultado.style.color ='green'
     if(operacao == 'somar'){
-        resultado.innerHTML =`O resultado é: ${soma()}`
+        resultado.innerHTML =`<p>O resultado é: ${soma()}</p>`
     }
     if(operacao == 'subtrair'){
-        resultado.innerHTML =`O resultado é: ${subtracao()}`
+        resultado.innerHTML =`<p>O resultado é: ${subtracao()}</p>`
     }
     if(operacao == 'multiplicar'){
-        resultado.innerHTML =`O resultado é: ${multiplicacao()}`
+        resultado.innerHTML =`<p>O resultado é: ${multiplicacao()}</p>`
     }
     if(operacao == 'dividir'){
-        resultado.innerHTML =`O resultado é: ${divisao()}`
+        resultado.innerHTML =`<p>O resultado é: ${divisao()}</p>`
     }
-    resultado.innerHTML +=`<p><button id="reiniciar" onclick="window.open('index.html')">REINICIAR</button><button id="sair" onclick="sair()">SAIR</button></p>`
+    document.getElementById('ok2').style.display='none'
+    resultado.innerHTML +=`<p><button id="reiniciar" onclick="document.location.reload(true)">REINICIAR</button><button id="sair" onclick="sair()">SAIR</button></p>`
 }
 }
 
