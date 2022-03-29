@@ -9,6 +9,7 @@ body{
 }
 
 header{
+  height: 50px;
   background-color: blue;
   display: flex;
   justify-content: space-between;
@@ -19,6 +20,10 @@ header{
   padding-left: 10px;
   border: solid 1px rgb(146, 146, 238);
   margin: auto;
+}
+
+h1{
+  font-size: 12pt;
 }
 
 body p{

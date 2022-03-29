@@ -9,6 +9,7 @@ body{
 }
 
 header{
+  height: 50px;
   background-color: blue;
   display: flex;
   justify-content: space-between;
