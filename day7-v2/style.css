@@ -70,3 +70,13 @@ input:focus-visible{
   font-size: 18pt;
   font-weight: bold;
 }
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
