@@ -100,7 +100,7 @@ function calcular(){
         resultado.innerHTML =`<p>O resultado é: ${divisao()}</p>`
     }
     document.getElementById('ok2').style.display='none'
-    resultado.innerHTML +=`<p><button id="reiniciar" onclick="document.location.reload(true)">REINICIAR</button><button id="sair" onclick="sair()">SAIR</button></p>`
+    resultado.innerHTML +=`<p><button id="reiniciar" onclick="limpaTudo()">REINICIAR</button><button id="sair" onclick="sair()">SAIR</button></p>`
 }
 }
 
@@ -112,12 +112,14 @@ function sair(){
 }
 
 function limpaTudo(){
-    document.getElementById('promptB').style='display:block'
-    document.getElementById('promptC').style='display:none'
+    document.getElementById('promptC').style='display:block'
+    document.getElementById('num1').focus()
     document.getElementById('promptD').style='display:none'
     document.getElementById('num1').focus()
-    document.getElementById('ok').style.display='block'
-    document.getElementById('ok2').style.display='none'
+    document.getElementById('ok').style.display='inline-block'
+    document.getElementById('ok2').style.display='inline-block'
+    document.getElementById('num1').value=''
+    document.getElementById('num2').value=''
     document.getElementById('resultado').innerHTML=''
 }
 
