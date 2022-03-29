@@ -75,6 +75,8 @@ input:focus-visible{
   padding: 10px;
   font-size: 18pt;
   font-weight: bold;
+  max-width: 477px;
+  flex-wrap: wrap;
 }
 
 input[type=number]::-webkit-inner-spin-button { 

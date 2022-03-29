@@ -108,7 +108,7 @@ function sair(){
     document.getElementById('promptB').style='display:none'
     document.getElementById('promptC').style='display:none'
     document.getElementById('promptD').style='display:none'
-    document.getElementById('resultado').innerHTML='<p>Obrigado por utilizar <br>a Calculadora do Neo, see ya!</p><p><button id="reiniciar" onclick="document.location.reload(true)">REINICIAR</button>'
+    document.getElementById('resultado').innerHTML='<p>Obrigado por utilizar a Calculadora do Neo, see ya!</p><p><button id="reiniciar" onclick="document.location.reload(true)">REINICIAR</button>'
 }
 
 function limpaTudo(){
