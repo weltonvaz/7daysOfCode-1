@@ -18,6 +18,13 @@ document.getElementById('num2').focus()
 function seleciona(botao){
     document.getElementById('promptC').style='display:block'
     document.getElementById('num1').focus()
+    document.getElementById('promptD').style='display:none'
+    document.getElementById('num1').focus()
+    document.getElementById('ok').style.display='inline-block'
+    document.getElementById('ok2').style.display='inline-block'
+    document.getElementById('num1').value=''
+    document.getElementById('num2').value=''
+    document.getElementById('resultado').innerHTML=''
     if (botao =='soma'){
     operacao = 'somar';
     document.getElementById(botao).style='border-color:white;color:white;'
@@ -102,6 +109,16 @@ function sair(){
     document.getElementById('promptC').style='display:none'
     document.getElementById('promptD').style='display:none'
     document.getElementById('resultado').innerHTML='<p>Obrigado por utilizar a Calculadora do Neo, see ya!</p><p><button id="reiniciar" onclick="document.location.reload(true)">REINICIAR</button>'
+}
+
+function limpaTudo(){
+    document.getElementById('promptB').style='display:block'
+    document.getElementById('promptC').style='display:none'
+    document.getElementById('promptD').style='display:none'
+    document.getElementById('num1').focus()
+    document.getElementById('ok').style.display='block'
+    document.getElementById('ok2').style.display='none'
+    document.getElementById('resultado').innerHTML=''
 }
 
 andamento()
