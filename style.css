@@ -71,12 +71,11 @@ input:focus-visible{
 }
 
 .resultado {
-  margin: 20px;
-  padding: 10px;
-  font-size: 18pt;
+  margin: 10px;
+  padding: 5px;
+  font-size: 16pt;
   font-weight: bold;
-  max-width: 460px;
-  flex-wrap: wrap;
+  max-width: 380px;
 }
 
 input[type=number]::-webkit-inner-spin-button { 
