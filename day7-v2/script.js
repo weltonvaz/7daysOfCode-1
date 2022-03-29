@@ -92,7 +92,7 @@ function calcular(){
     if(operacao == 'dividir'){
         resultado.innerHTML =`O resultado é: ${divisao()}`
     }
-    resultado.innerHTML +=`<p><button id="reiniciar" onclick="window.open('index.html')">REINICIAR</button><button id="sair" onclick="sair()">SAIR</button></p>`
+    resultado.innerHTML +=`<p><button id="reiniciar" onclick="document.location.reload(true)">REINICIAR</button><button id="sair" onclick="sair()">SAIR</button></p>`
 }
 }
 
