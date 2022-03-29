@@ -6,7 +6,7 @@ body{
   min-height: 200px;
   margin: 5px;
   color: rgb(15, 163, 35);
-  min-width: 460px;
+  min-width: 400px;
 }
 
 header{
@@ -106,10 +106,6 @@ p:nth-child(2){
 p a{
   color: lime;
   text-decoration: none;
-}
-
-span{
-  animation: blink 1s infinite;
 }
 
 @keyframes type{ 
